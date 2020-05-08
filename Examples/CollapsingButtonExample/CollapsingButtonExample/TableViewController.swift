@@ -40,7 +40,7 @@ class TableViewController: UITableViewController {
         collapsingButton = CollapsingButton(addedTo: tableView)
         collapsingButton.backgroundColor = .orange
         collapsingButton.foregroundColor = .white
-        collapsingButton.label.text = "Floating Button"
+        collapsingButton.label.text = "Collapsing Button"
         collapsingButton.imageView.image = UIImage(systemName: "square.and.arrow.up")
         collapsingButton.addTarget(self, action: #selector(toggleCollapsingButton(_:)), for: .touchUpInside)
     }
